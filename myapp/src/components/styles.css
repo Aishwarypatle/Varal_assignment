@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap');
+
+
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.search-box
+{
+    border: 2px solid #6C00FF;
+    width:300px;
+    height:3rem;
+    margin:4rem;
+    justify-content:space-between;
+}
+::placeholder
+{
+    color: #6C00FF;
+    font-family: 'Lexend Deca', sans-serif;
+}
